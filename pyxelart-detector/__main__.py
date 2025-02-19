@@ -13,12 +13,12 @@ def main():
     if len(sys.argv) != 2:
         usage()
 
-        filepath = Path(sys.argv[1])
-        if not filepath.is_file():
-            print(f"Error: {filepath} is not a valid file.")
-            usage()
+    filepath = Path(sys.argv[1])
+    if not filepath.is_file():
+        print(f"Error: {filepath} is not a valid file.")
+        usage()
 
-        print(is_pixel_art(filepath))
+    print(is_pixel_art(filepath))
 
 if __name__ == '__main__':
     main()
