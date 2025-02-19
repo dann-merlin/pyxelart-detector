@@ -16,3 +16,6 @@ uv.lock
 *.jpeg
 *.gif
 *.webp
+
+# secrets
+.token
