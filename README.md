@@ -26,7 +26,20 @@ pip install pyxelart-detector
 
 ## Usage
 
-After installation, import and use the library in your projects as follows:
+After installation, you can use the script if it is in your `PATH`.
+It takes a single image path as an argument.
+To parse multiple files, you need to call it multiple times or use it as a library.
+
+```bash
+pyxelart-detector path/to/your/image.png
+
+# for multiple files
+for filepath in *.{png,gif,jpg}; do
+  pyxelart-detector "$filepath"
+done
+```
+
+You can also import and use the library in your projects as follows:
 
 ```python
 from pyxelart_detector import is_pixel_art, is_pixel_art_numpy
