@@ -19,7 +19,7 @@ import numpy as np
 import numpy.typing as npt
 from termcolor import colored
 
-from detector import (
+from .pyxelart_detector import (
     CrossKernelOptions,
     is_pixel_art_debug,
     is_pixel_art,

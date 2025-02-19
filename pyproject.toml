@@ -15,8 +15,6 @@ classifiers = [
 	"Topic :: Scientific/Engineering :: Image Processing",
 	"Topic :: Scientific/Engineering :: Image Recognition"
 ]
-license = "AGPL-3.0-or-later"
-license-files = ["LICENSE"]
 dependencies = [
     "matplotlib>=3.10.0",
     "mpl-interactions>=0.24.2",
@@ -26,3 +24,6 @@ dependencies = [
     "scipy>=1.15.2",
     "termcolor>=2.5.0",
 ]
+[project.urls]
+Repository = "https://github.com/dann-merlin/pyxelart-detector"
+Issues = "https://github.com/dann-merlin/pyxelart-detector/issues"

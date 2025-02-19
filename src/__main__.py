@@ -3,7 +3,7 @@
 import sys
 from pathlib import Path
 
-from pyxelart_detector import is_pixel_art
+from .pyxelart_detector import is_pixel_art
 
 def usage():
     print("Usage:  python -m pyxelart_detector <path/to/file.{png,jpg,gif,...}>")
