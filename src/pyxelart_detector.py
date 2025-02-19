@@ -232,7 +232,7 @@ def get_prepared_image(filepath: Path) -> npt.NDArray[np.float64]:
     im_raw = plt.imread(filepath)
     return get_prepared_image_numpy(im_raw)
 
-def get_prepared_image_numpy(image: np.NDArray[np.float64]) -> npt.NDArray[np.float64]:
+def get_prepared_image_numpy(image: npt.NDArray[np.float64]) -> npt.NDArray[np.float64]:
     """
     Preprocess a given image (as a numpy array) by converting to float (if necessary),
     transforming to grayscale, and cropping to a centered square with an odd side length.
