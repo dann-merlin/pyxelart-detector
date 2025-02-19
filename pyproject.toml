@@ -11,10 +11,10 @@ classifiers = [
 	"Programming Language :: Python :: 3",
 	"Programming Language :: Python :: 3.13",
 	"Operating System :: OS Independent",
-	"License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)",
 	"Topic :: Scientific/Engineering :: Image Processing",
 	"Topic :: Scientific/Engineering :: Image Recognition"
 ]
+license = "AGPL-3.0-or-later"
 dependencies = [
     "matplotlib>=3.10.0",
     "mpl-interactions>=0.24.2",
