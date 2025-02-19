@@ -24,12 +24,16 @@ dependencies = [
     "scipy>=1.15.2",
     "termcolor>=2.5.0",
 ]
+
+[project.scripts]
+pyxelart-detector = "pyxelart_detector:main"
+
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [tool.hatch.build.targets.wheel]
-packages = ["pyxelart-detector"]
+packages = ["pyxelart_detector"]
 
 [project.urls]
 Repository = "https://github.com/dann-merlin/pyxelart-detector"
