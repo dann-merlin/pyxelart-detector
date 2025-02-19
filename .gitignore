@@ -9,4 +9,10 @@ wheels/
 # Virtual environments
 .venv
 uv.lock
-.python-version
+
+# image files
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
