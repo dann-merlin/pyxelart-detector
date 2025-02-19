@@ -14,7 +14,7 @@ classifiers = [
 	"Topic :: Scientific/Engineering :: Image Processing",
 	"Topic :: Scientific/Engineering :: Image Recognition"
 ]
-license = "AGPL-3.0-or-later"
+license = { "text" = "AGPL-3.0-or-later" }
 dependencies = [
     "matplotlib>=3.10.0",
     "mpl-interactions>=0.24.2",
