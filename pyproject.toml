@@ -1,6 +1,6 @@
 [project]
 name = "pyxelart-detector"
-version = "0.1.0"
+version = "0.1.1"
 description = "A library to detect if an image is likely pixel art."
 authors  = [
 	{ name = "Merlin Sievers", email = "merlin.sievers@posteo.net" }
