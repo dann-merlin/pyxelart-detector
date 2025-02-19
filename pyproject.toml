@@ -2,8 +2,20 @@
 name = "pyxelart-detector"
 version = "0.1.0"
 description = "A library to detect if an image is likely pixel art."
+authors  = [
+	{ name = "Merlin Sievers", email = "merlin.sievers@posteo.net" }
+]
 readme = "README.md"
 requires-python = ">=3.13"
+classifiers = [
+	"Programming Language :: Python :: 3",
+	"Programming Language :: Python :: 3.13",
+	"Operating System :: OS Independent",
+	"License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)",
+	"Topic :: Scientific/Engineering :: Image Processing",
+	"Topic :: Scientific/Engineering :: Image Recognition"
+]
+license = "AGPL-3.0-or-later"
 dependencies = [
     "matplotlib>=3.10.0",
     "mpl-interactions>=0.24.2",
